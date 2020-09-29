@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Motivation</string>
+    <string name="vamos_comecar">Vamos começar</string>
+    <string name="qual_nome">Qual seu nome?</string>
+    <string name="salvar">Salvar</string>
+    <string name="informe_nome">Informe seu nome</string>
 </resources>
