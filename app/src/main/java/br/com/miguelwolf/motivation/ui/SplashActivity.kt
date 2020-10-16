@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import br.com.miguelwolf.motivation.R
+import br.com.miguelwolf.motivation.infra.MotivationConstants
 import br.com.miguelwolf.motivation.infra.SecurityPreferences
 import kotlinx.android.synthetic.main.activity_splash.*
 
@@ -30,10 +31,10 @@ class SplashActivity : AppCompatActivity(), View.OnClickListener {
 
             R.id.splash_btn -> {
 
-                val name = splash_tv.text.toString()
+                val name = splash_et.text.toString()
 
                 if (name != "") {
-                    mSecurityPreferences.storeString(SecurityPreferences.NAME, name)
+                    mSecurityPreferences.storeString(MotivationConstants.KEY.PERSON_NAME, name)
                     startActivity(Intent(this, MainActivity::class.java))
 
                 } else {

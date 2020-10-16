@@ -4,4 +4,5 @@
     <string name="qual_nome">Qual seu nome?</string>
     <string name="salvar">Salvar</string>
     <string name="informe_nome">Informe seu nome</string>
+    <string name="ola_valor">Olá, %1$s</string>
 </resources>
